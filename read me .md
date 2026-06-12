@@ -1,6 +1,6 @@
-# Speed Typing Test ⌨️
+# Speed Typing Test 
 
-Application web de test de dactylographie en Vanilla JS/CSS. Elle permet de mesurer sa vitesse de frappe en mots par minute (WPM) et son taux de précision sur des phrases tirées aléatoirement. L'interface colorie les caractères en temps réel et affiche un bilan complet à la fin de chaque phrase.
+Application web de test de dactylographie en JS/CSS. Elle permet de mesurer sa vitesse de frappe en mots par minute (WPM) et son taux de précision sur des phrases tirées aléatoirement. L'interface colorie les caractères en temps réel et affiche un bilan complet à la fin de chaque phrase.
 
 ## Instructions pour lancer le projet localement
 
