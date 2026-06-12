@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Speed Typing Test</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="game-container">
+    
+    <div id="timer">0</div>
+
+    <div id="zone-texte"></div>
+
+    <textarea id="input" autofocus></textarea>
+
+    <div id="resultats">
+      <div class="resultats-grid">
+        <div class="res-item">
+          <span class="res-label">⏱ Temps</span>
+          <span class="res-value"><span id="res-temps">0</span>s</span>
+        </div>
+        <div class="res-item">
+          <span class="res-label">🚀 WPM</span>
+          <span class="res-value" id="res-wpm">0</span>
+        </div>
+        <div class="res-item">
+          <span class="res-label">🎯 Précision</span>
+          <span class="res-value"><span id="res-precision">0</span>%</span>
+        </div>
+      </div>
+    </div>
+
+    <button id="new-phrase-btn" onclick="genererNouvellePhrase()">Nouvelle phrase</button>
+
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>

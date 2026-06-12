@@ -1,0 +1,11 @@
+Plaintext
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Configuration d'éditeurs
+.vscode/
+.idea/
+
+# Logs
+*.log
